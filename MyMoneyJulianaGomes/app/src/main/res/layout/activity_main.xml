@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/red"
+        android:onClick="expensesView"
+        android:text="Despesas"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_recipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/blue"
+        android:onClick="revenuesView"
+        android:text="Receitas"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/yellow"
+        android:onClick="balanceView"
+        android:text="Balanço"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/green"
+        android:onClick="priceView"
+        android:text="Cotação"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/purple"
+        android:onClick="chartView"
+        android:text="Relatório"
+        android:textColor="@color/white" />
+
+</LinearLayout>
